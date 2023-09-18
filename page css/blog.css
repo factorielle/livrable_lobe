@@ -1,0 +1,145 @@
+:root{
+    --couleurbase:#760001;
+}
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: #FFF5D7;
+    margin: 35px;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 2px dashed var(--couleurbase);
+    margin-top: -20px;
+}
+header ul {
+    display: flex;
+    justify-content: space-between;
+}
+header ul li {
+    list-style: none;
+    margin-right: 30px;
+    margin-top: 35px;
+}
+header ul li a{
+    padding-bottom: 3px;
+    text-decoration: none;
+    color: black;
+}
+header ul li a:hover{
+    color: var(--couleurbase);
+}
+.active{
+    color:var(--couleurbase);
+    text-decoration: underline;
+}
+main img{
+    width: 100%;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+.desc{
+    position:relative;
+    top: -44px;
+    padding-top: 10px;
+    padding-left: 10px;
+    background-color: #1E1617 ;
+    opacity: 0.8;
+    color: white;
+    height: 30px;
+    border-radius: 5px;
+}
+button{
+    float: right;
+    margin-right: 10px;
+    background-color:var(--couleurbase);
+    color: white;
+    border-radius: 10px;
+    width: 100px;
+    height: 24px;
+    padding-top: 1px;
+}
+.titre{
+    display: flex;
+    padding-bottom: 10px;
+}
+.titre h3{
+    padding-top: 30px;
+}
+.left img{
+    width: 50px;
+    height: 50px;
+
+}
+.bloc{
+    display: flex;
+    padding-bottom: 15px;
+    border-bottom: 2px dashed  var(--couleurbase);
+}
+.right{
+    flex:1 20px;
+    background-color: #706B64;
+    border-radius: 10px;
+    box-shadow: 1px 1px 2px ;
+    color: white;
+    padding: 15px 10px;
+    margin-bottom: 160px;
+}
+.left{
+    flex: 1 490px;
+}
+#zozor{
+    width: 120px;
+    height: 100px;
+    margin-left: 110px;
+    margin-bottom: 5px;
+}
+
+.reseaux{
+    margin-top: 15px;
+    padding-left: 25px;
+}
+.reseaux img{
+    width: 50px;
+    height: 50px;
+    margin: 2px;
+}
+.icon i{
+    font-size: 40px;
+    margin-right:-8px;
+    margin-top: 110px;
+}
+#bas{
+    width:60px ;
+    height: 60px;
+    margin-top: -9px;
+    margin-left: 570px;
+}
+footer{
+    display: flex;
+    justify-content: space-between;
+}
+.photo img{
+    width: 90px;
+    height:90px;
+    border: 1px solid black;
+}
+.ami {
+    display: flex;
+    justify-content: space-between;
+}
+.ami ul li{
+    list-style: none;
+    margin-right: 25px;
+}
+.fleche img{
+    width: 15px;
+    height: 15px;
+}
+.rouge{
+    color: var(--couleurbase);
+    text-decoration: underline var(--couleurbase);
+}
